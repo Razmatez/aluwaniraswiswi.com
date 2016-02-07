@@ -1,0 +1,32 @@
+{>"layouts/master"/}
+<div class="row">
+    <div class="container">
+            <div class="contact">
+                <h2>Have an idea you want to share?</h2>
+                <p>
+                    Fill in the form below and I will get back to you.
+                </p>
+            </div>
+            <form class="" action="/contact" method="post">
+                <input type="hidden" name="_csrf" value="{_csrf}">
+                <fieldset class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" placeholder="Your name" class="form-control">
+                </fieldset>
+                <fieldset class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="username@domain.com" class="form-control">
+                </fieldset>
+                <fieldset class="form-group">
+                    <label for="cellphone">Cellphone Number</label>
+                    <input type="text" name="cellphone" placeholder="072134567" class="form-control">
+                </fieldset>
+                <fieldset class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" rows="8" cols="40" class="form-control"></textarea>
+                </fieldset>
+                <button type="submit" name="submit" class="btn btn-primary">Send</button>
+            </form>
+    </div>
+
+</div>

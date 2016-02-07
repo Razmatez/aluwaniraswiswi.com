@@ -1,0 +1,21 @@
+{
+  "name": "aluwaniraswiswi-com",
+  "description": "Aluwani Raswiswi&#39;s website",
+  "main": "index.js",
+  "author": "Aluwani Raswiswi",
+  "moduleType": [
+    "amd"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "^2.1.16"
+  }
+}

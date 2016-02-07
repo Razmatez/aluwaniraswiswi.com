@@ -1,0 +1,20 @@
+{>"layouts/master"/}
+<div class="row">
+    <div class="container">
+        <h1>Login</h1>
+        <form action="/login" method="post">
+            <input type="hidden" name="_csrf" value="{_csrf}">
+            <fieldset class="form-group">
+                <label>Username:</label>
+                <input type="text" name="username" class="form-control"/>
+            </fieldset>
+            <fieldset class="form-group">
+                <label>Password:</label>
+                <input type="password" name="password" class="form-control"/>
+            </fieldset>
+            <div>
+                <input type="submit" value="Log In" class="form-control"/>
+            </div>
+        </form>
+    </div>
+</div>
